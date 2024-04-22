@@ -17,10 +17,7 @@ class MyApp extends StatelessWidget {
             children: [
               
               Text("hi roshan"),
-              Text("hi sona"),
-              Text("hi babu"),
-              Text('commit1'),
-              Text('data') 
+              Text('data')
             ],
           ),
         ),
