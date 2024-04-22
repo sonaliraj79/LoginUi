@@ -16,10 +16,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text("hi roshan"),
-              Text("hi sona"),
-              Text("hi babu"),
-              Text('commit1'),
-              Text('data'),
+              
               Text('hello'),
             ],
           ),
