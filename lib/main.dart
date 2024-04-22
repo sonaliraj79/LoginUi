@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -9,6 +9,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(body: Center(child: Text("hi sonali"),),),);
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("hi sonali"),
+              Text("hi roshan"),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
