@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
               Text("hi sonali"),
               Text("hi roshan"),
               Text("hi sona"),
-              Text("hi babu")
+              Text("hi babu"),
+              Text('commit1'),
+              Text('data')
             ],
           ),
         ),
