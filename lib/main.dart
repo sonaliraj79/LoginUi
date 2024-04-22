@@ -14,10 +14,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text("hi sonali"),
-              Text("hi roshan"),
-            ],
+            children: [Text("hi sonali"), Text("hi roshan"), Text("hi sona")],
           ),
         ),
       ),
